@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "ABDC92FE19CFA544005D6CEC"
-               BuildableName = "HelloWorld.app"
-               BlueprintName = "HelloWorld"
-               ReferencedContainer = "container:HelloWorld.xcodeproj">
+               BuildableName = "Tip &apos;n Split.app"
+               BlueprintName = "Tip &apos;n Split"
+               ReferencedContainer = "container:Tip &apos;n Split.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "ABDC931F19CFA545005D6CEC"
-               BuildableName = "HelloWorldTests.xctest"
-               BlueprintName = "HelloWorldTests"
-               ReferencedContainer = "container:HelloWorld.xcodeproj">
+               BuildableName = "Tip &apos;n SplitTests.xctest"
+               BlueprintName = "Tip &apos;n SplitTests"
+               ReferencedContainer = "container:Tip &apos;n Split.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ABDC92FE19CFA544005D6CEC"
-            BuildableName = "HelloWorld.app"
-            BlueprintName = "HelloWorld"
-            ReferencedContainer = "container:HelloWorld.xcodeproj">
+            BuildableName = "Tip &apos;n Split.app"
+            BlueprintName = "Tip &apos;n Split"
+            ReferencedContainer = "container:Tip &apos;n Split.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ABDC92FE19CFA544005D6CEC"
-            BuildableName = "HelloWorld.app"
-            BlueprintName = "HelloWorld"
-            ReferencedContainer = "container:HelloWorld.xcodeproj">
+            BuildableName = "Tip &apos;n Split.app"
+            BlueprintName = "Tip &apos;n Split"
+            ReferencedContainer = "container:Tip &apos;n Split.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ABDC92FE19CFA544005D6CEC"
-            BuildableName = "HelloWorld.app"
-            BlueprintName = "HelloWorld"
-            ReferencedContainer = "container:HelloWorld.xcodeproj">
+            BuildableName = "Tip &apos;n Split.app"
+            BlueprintName = "Tip &apos;n Split"
+            ReferencedContainer = "container:Tip &apos;n Split.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
