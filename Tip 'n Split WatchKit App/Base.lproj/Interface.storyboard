@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8092"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Tip__n_Split_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label alignment="right" text="$0" textAlignment="right" id="abL-vx-deD"/>
+                        <group width="134" height="0.20000000000000001" alignment="center" id="FK7-Zc-uf5">
+                            <items>
+                                <button width="0.33000000000000002" height="1" alignment="left" title="1" id="wnP-bP-8Tv">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="0.0" green="1" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="tapped1" destination="AgC-eL-Hgc" id="YZI-9P-bZA"/>
+                                    </connections>
+                                </button>
+                                <button width="0.33000000000000002" height="1" alignment="center" title="2" id="e4T-Wr-hLc">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="0.0" green="1" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="tapped2" destination="AgC-eL-Hgc" id="ycK-Ug-JRu"/>
+                                    </connections>
+                                </button>
+                                <button width="0.33000000000000002" height="1" alignment="right" title="3" id="41T-iW-Ljn">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="0.0" green="1" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="tapped3" destination="AgC-eL-Hgc" id="ra0-KN-GEY"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="0.20000000000000001" alignment="center" id="7tL-54-LXs">
+                            <items>
+                                <button width="0.33000000000000002" height="30" alignment="left" title="4" id="ULv-Gh-reh">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="0.0" green="1" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="tapped4" destination="AgC-eL-Hgc" id="lvs-0U-pen"/>
+                                    </connections>
+                                </button>
+                                <button width="0.33000000000000002" height="30" alignment="center" title="5" id="ECN-L6-VHk">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="0.0" green="1" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="tapped5" destination="AgC-eL-Hgc" id="aQ9-MV-u3C"/>
+                                    </connections>
+                                </button>
+                                <button width="0.33000000000000002" height="30" alignment="right" title="6" id="A1n-98-x2Y">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="0.0" green="1" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="tapped6" destination="AgC-eL-Hgc" id="fnd-vg-Vix"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="0.20000000000000001" alignment="center" id="EdO-vh-Rk1">
+                            <items>
+                                <button width="0.33000000000000002" height="30" alignment="left" title="7" id="9zB-Ck-inI">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="0.0" green="1" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="tapped7" destination="AgC-eL-Hgc" id="JJa-vJ-CcH"/>
+                                    </connections>
+                                </button>
+                                <button width="0.33000000000000002" height="30" alignment="center" title="8" id="yio-CQ-r8C">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="0.0" green="1" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="tapped8" destination="AgC-eL-Hgc" id="gSX-oI-hOB"/>
+                                    </connections>
+                                </button>
+                                <button width="0.33000000000000002" height="30" alignment="right" title="9" id="VAv-2p-Nc3">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="0.0" green="1" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="tapped9" destination="AgC-eL-Hgc" id="lQ6-BF-SYd"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="0.20000000000000001" alignment="center" id="G14-l3-m8Y">
+                            <items>
+                                <button width="0.66000000000000003" height="30" alignment="right" title="Next" id="qu5-my-lVU">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="0.0" green="1" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="tappedNext" destination="AgC-eL-Hgc" id="Knf-ZO-h05"/>
+                                    </connections>
+                                </button>
+                                <button width="0.33000000000000002" height="30" alignment="left" title="0" id="gJd-qc-oZY">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="0.0" green="1" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="tapped0" destination="AgC-eL-Hgc" id="Rvz-qs-kWB"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="displayLabel" destination="abL-vx-deD" id="UKO-Cb-seU"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB82580D1BD5C18600DC0A4D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB82580C1BD5C18600DC0A4D /* InterfaceController.swift */; };
+		AB82580F1BD5C18600DC0A4D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB82580E1BD5C18600DC0A4D /* Images.xcassets */; };
+		AB82581B1BD5C18600DC0A4D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8258191BD5C18600DC0A4D /* Interface.storyboard */; };
+		AB82581D1BD5C18600DC0A4D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB82581C1BD5C18600DC0A4D /* Images.xcassets */; };
+		ABD654CF1BD5E40D00AD5F49 /* Tip 'n Split WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AB8258081BD5C18600DC0A4D /* Tip 'n Split WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ABD654D21BD5E40D00AD5F49 /* Tip 'n Split WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AB8258121BD5C18600DC0A4D /* Tip 'n Split WatchKit App.app */; };
 		ABDC930319CFA544005D6CEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABDC930219CFA544005D6CEC /* Foundation.framework */; };
 		ABDC930519CFA544005D6CEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABDC930419CFA544005D6CEC /* CoreGraphics.framework */; };
 		ABDC930719CFA544005D6CEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABDC930619CFA544005D6CEC /* UIKit.framework */; };
@@ -21,7 +27,6 @@
 		ABDC932419CFA545005D6CEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABDC930619CFA544005D6CEC /* UIKit.framework */; };
 		ABDC932C19CFA545005D6CEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABDC932A19CFA545005D6CEC /* InfoPlist.strings */; };
 		ABDC932E19CFA545005D6CEC /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABDC932D19CFA545005D6CEC /* HelloWorldTests.m */; };
-		ABF4AACF19D257D3005DC171 /* feature_gc.png in Resources */ = {isa = PBXBuildFile; fileRef = ABF4AACE19D257D3005DC171 /* feature_gc.png */; };
 		ABFF766119E06A3D0002F074 /* Angry.png in Resources */ = {isa = PBXBuildFile; fileRef = ABFF765C19E06A3D0002F074 /* Angry.png */; };
 		ABFF766219E06A3D0002F074 /* Average.png in Resources */ = {isa = PBXBuildFile; fileRef = ABFF765D19E06A3D0002F074 /* Average.png */; };
 		ABFF766319E06A3D0002F074 /* Happy.png in Resources */ = {isa = PBXBuildFile; fileRef = ABFF765E19E06A3D0002F074 /* Happy.png */; };
@@ -31,6 +36,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		ABD654CD1BD5E40D00AD5F49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABDC92F719CFA544005D6CEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB8258071BD5C18600DC0A4D;
+			remoteInfo = "Tip 'n Split WatchKit Extension";
+		};
+		ABD654D01BD5E40D00AD5F49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABDC92F719CFA544005D6CEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB8258111BD5C18600DC0A4D;
+			remoteInfo = "Tip 'n Split WatchKit App";
+		};
 		ABDC932519CFA545005D6CEC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ABDC92F719CFA544005D6CEC /* Project object */;
@@ -40,7 +59,40 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		ABD654D31BD5E40D00AD5F49 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				ABD654CF1BD5E40D00AD5F49 /* Tip 'n Split WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD654D41BD5E40D00AD5F49 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				ABD654D21BD5E40D00AD5F49 /* Tip 'n Split WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		AB8258081BD5C18600DC0A4D /* Tip 'n Split WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Tip 'n Split WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB82580B1BD5C18600DC0A4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB82580C1BD5C18600DC0A4D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		AB82580E1BD5C18600DC0A4D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AB8258121BD5C18600DC0A4D /* Tip 'n Split WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tip 'n Split WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB8258181BD5C18600DC0A4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB82581A1BD5C18600DC0A4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		AB82581C1BD5C18600DC0A4D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ABDC92FF19CFA544005D6CEC /* Tip 'n Split.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tip 'n Split.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABDC930219CFA544005D6CEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ABDC930419CFA544005D6CEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,7 +112,6 @@
 		ABDC932919CFA545005D6CEC /* HelloWorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloWorldTests-Info.plist"; sourceTree = "<group>"; };
 		ABDC932B19CFA545005D6CEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ABDC932D19CFA545005D6CEC /* HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTests.m; sourceTree = "<group>"; };
-		ABF4AACE19D257D3005DC171 /* feature_gc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = feature_gc.png; path = ../../feature_gc.png; sourceTree = "<group>"; };
 		ABFF765C19E06A3D0002F074 /* Angry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Angry.png; path = "../../documents-export-2014-10-04/Angry.png"; sourceTree = "<group>"; };
 		ABFF765D19E06A3D0002F074 /* Average.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Average.png; path = "../../documents-export-2014-10-04/Average.png"; sourceTree = "<group>"; };
 		ABFF765E19E06A3D0002F074 /* Happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Happy.png; path = "../../documents-export-2014-10-04/Happy.png"; sourceTree = "<group>"; };
@@ -70,6 +121,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AB8258051BD5C18600DC0A4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ABDC92FC19CFA544005D6CEC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -93,11 +151,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB8258091BD5C18600DC0A4D /* Tip 'n Split WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AB82580C1BD5C18600DC0A4D /* InterfaceController.swift */,
+				AB82580E1BD5C18600DC0A4D /* Images.xcassets */,
+				AB82580A1BD5C18600DC0A4D /* Supporting Files */,
+			);
+			path = "Tip 'n Split WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		AB82580A1BD5C18600DC0A4D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB82580B1BD5C18600DC0A4D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB8258161BD5C18600DC0A4D /* Tip 'n Split WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				AB8258191BD5C18600DC0A4D /* Interface.storyboard */,
+				AB82581C1BD5C18600DC0A4D /* Images.xcassets */,
+				AB8258171BD5C18600DC0A4D /* Supporting Files */,
+			);
+			path = "Tip 'n Split WatchKit App";
+			sourceTree = "<group>";
+		};
+		AB8258171BD5C18600DC0A4D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB8258181BD5C18600DC0A4D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		ABDC92F619CFA544005D6CEC = {
 			isa = PBXGroup;
 			children = (
 				ABDC930819CFA544005D6CEC /* TipnSplit */,
 				ABDC932719CFA545005D6CEC /* TipnSplitTests */,
+				AB8258091BD5C18600DC0A4D /* Tip 'n Split WatchKit Extension */,
+				AB8258161BD5C18600DC0A4D /* Tip 'n Split WatchKit App */,
 				ABDC930119CFA544005D6CEC /* Frameworks */,
 				ABDC930019CFA544005D6CEC /* Products */,
 			);
@@ -108,6 +204,8 @@
 			children = (
 				ABDC92FF19CFA544005D6CEC /* Tip 'n Split.app */,
 				ABDC932019CFA545005D6CEC /* Tip 'n SplitTests.xctest */,
+				AB8258081BD5C18600DC0A4D /* Tip 'n Split WatchKit Extension.appex */,
+				AB8258121BD5C18600DC0A4D /* Tip 'n Split WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,7 +245,6 @@
 				ABFF765E19E06A3D0002F074 /* Happy.png */,
 				ABFF765F19E06A3D0002F074 /* Sad.png */,
 				ABFF766019E06A3D0002F074 /* Very Happy.png */,
-				ABF4AACE19D257D3005DC171 /* feature_gc.png */,
 				ABDC930A19CFA544005D6CEC /* Tip 'n Split-Info.plist */,
 				ABDC930B19CFA544005D6CEC /* InfoPlist.strings */,
 				ABDC930E19CFA544005D6CEC /* main.m */,
@@ -178,6 +275,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		AB8258071BD5C18600DC0A4D /* Tip 'n Split WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB8258261BD5C18600DC0A4D /* Build configuration list for PBXNativeTarget "Tip 'n Split WatchKit Extension" */;
+			buildPhases = (
+				AB8258041BD5C18600DC0A4D /* Sources */,
+				AB8258051BD5C18600DC0A4D /* Frameworks */,
+				AB8258061BD5C18600DC0A4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tip 'n Split WatchKit Extension";
+			productName = "Tip 'n Split WatchKit Extension";
+			productReference = AB8258081BD5C18600DC0A4D /* Tip 'n Split WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		AB8258111BD5C18600DC0A4D /* Tip 'n Split WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB8258251BD5C18600DC0A4D /* Build configuration list for PBXNativeTarget "Tip 'n Split WatchKit App" */;
+			buildPhases = (
+				AB8258101BD5C18600DC0A4D /* Resources */,
+				ABD654D31BD5E40D00AD5F49 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABD654CE1BD5E40D00AD5F49 /* PBXTargetDependency */,
+			);
+			name = "Tip 'n Split WatchKit App";
+			productName = "Tip 'n Split WatchKit App";
+			productReference = AB8258121BD5C18600DC0A4D /* Tip 'n Split WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
 		ABDC92FE19CFA544005D6CEC /* Tip 'n Split */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABDC933119CFA545005D6CEC /* Build configuration list for PBXNativeTarget "Tip 'n Split" */;
@@ -185,10 +316,12 @@
 				ABDC92FB19CFA544005D6CEC /* Sources */,
 				ABDC92FC19CFA544005D6CEC /* Frameworks */,
 				ABDC92FD19CFA544005D6CEC /* Resources */,
+				ABD654D41BD5E40D00AD5F49 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				ABD654D11BD5E40D00AD5F49 /* PBXTargetDependency */,
 			);
 			name = "Tip 'n Split";
 			productName = HelloWorld;
@@ -219,9 +352,18 @@
 		ABDC92F719CFA544005D6CEC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = JonComApps;
 				TargetAttributes = {
+					AB8258071BD5C18600DC0A4D = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = X4SB288GD5;
+					};
+					AB8258111BD5C18600DC0A4D = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = X4SB288GD5;
+					};
 					ABDC92FE19CFA544005D6CEC = {
 						DevelopmentTeam = X4SB288GD5;
 					};
@@ -245,11 +387,30 @@
 			targets = (
 				ABDC92FE19CFA544005D6CEC /* Tip 'n Split */,
 				ABDC931F19CFA545005D6CEC /* Tip 'n SplitTests */,
+				AB8258071BD5C18600DC0A4D /* Tip 'n Split WatchKit Extension */,
+				AB8258111BD5C18600DC0A4D /* Tip 'n Split WatchKit App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		AB8258061BD5C18600DC0A4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB82580F1BD5C18600DC0A4D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB8258101BD5C18600DC0A4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB82581B1BD5C18600DC0A4D /* Interface.storyboard in Resources */,
+				AB82581D1BD5C18600DC0A4D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ABDC92FD19CFA544005D6CEC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -263,7 +424,6 @@
 				ABFF766119E06A3D0002F074 /* Angry.png in Resources */,
 				ABFF766219E06A3D0002F074 /* Average.png in Resources */,
 				ABDC931619CFA544005D6CEC /* Main.storyboard in Resources */,
-				ABF4AACF19D257D3005DC171 /* feature_gc.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +438,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AB8258041BD5C18600DC0A4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB82580D1BD5C18600DC0A4D /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ABDC92FB19CFA544005D6CEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -299,6 +467,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		ABD654CE1BD5E40D00AD5F49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB8258071BD5C18600DC0A4D /* Tip 'n Split WatchKit Extension */;
+			targetProxy = ABD654CD1BD5E40D00AD5F49 /* PBXContainerItemProxy */;
+		};
+		ABD654D11BD5E40D00AD5F49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB8258111BD5C18600DC0A4D /* Tip 'n Split WatchKit App */;
+			targetProxy = ABD654D01BD5E40D00AD5F49 /* PBXContainerItemProxy */;
+		};
 		ABDC932619CFA545005D6CEC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = ABDC92FE19CFA544005D6CEC /* Tip 'n Split */;
@@ -307,6 +485,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		AB8258191BD5C18600DC0A4D /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB82581A1BD5C18600DC0A4D /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		ABDC930B19CFA544005D6CEC /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -334,6 +520,109 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		AB8258211BD5C18600DC0A4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tip 'n Split WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JonComApps.TipnSplit.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		AB8258221BD5C18600DC0A4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jonathan Rose (X4SB288GD5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jonathan Rose (X4SB288GD5)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Tip 'n Split WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JonComApps.TipnSplit.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		AB8258231BD5C18600DC0A4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Tip__n_Split_WatchKit_Extension;
+				INFOPLIST_FILE = "Tip 'n Split WatchKit App/Info.plist";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JonComApps.TipnSplit.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		AB8258241BD5C18600DC0A4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IBSC_MODULE = Tip__n_Split_WatchKit_Extension;
+				INFOPLIST_FILE = "Tip 'n Split WatchKit App/Info.plist";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JonComApps.TipnSplit.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
 		ABDC932F19CFA545005D6CEC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -352,6 +641,8 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -390,6 +681,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -414,6 +706,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloWorld/Tip 'n Split-Prefix.pch";
 				INFOPLIST_FILE = "HelloWorld/Tip 'n Split-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JonComApps.TipnSplit;
 				PRODUCT_NAME = "Tip 'n Split";
 				PROVISIONING_PROFILE = "1d9499a9-f501-45c9-8862-f9800a065b0f";
 				WRAPPER_EXTENSION = app;
@@ -430,6 +724,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloWorld/Tip 'n Split-Prefix.pch";
 				INFOPLIST_FILE = "HelloWorld/Tip 'n Split-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JonComApps.TipnSplit;
 				PRODUCT_NAME = "Tip 'n Split";
 				PROVISIONING_PROFILE = "1d9499a9-f501-45c9-8862-f9800a065b0f";
 				WRAPPER_EXTENSION = app;
@@ -479,6 +775,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AB8258251BD5C18600DC0A4D /* Build configuration list for PBXNativeTarget "Tip 'n Split WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB8258231BD5C18600DC0A4D /* Debug */,
+				AB8258241BD5C18600DC0A4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB8258261BD5C18600DC0A4D /* Build configuration list for PBXNativeTarget "Tip 'n Split WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB8258211BD5C18600DC0A4D /* Debug */,
+				AB8258221BD5C18600DC0A4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		ABDC92FA19CFA544005D6CEC /* Build configuration list for PBXProject "Tip 'n Split" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

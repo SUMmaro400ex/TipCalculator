@@ -28,16 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ABDC931F19CFA545005D6CEC"
-               BuildableName = "Tip &apos;n SplitTests.xctest"
-               BlueprintName = "Tip &apos;n SplitTests"
-               ReferencedContainer = "container:Tip &apos;n Split.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
