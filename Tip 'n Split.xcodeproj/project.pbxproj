@@ -709,7 +709,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.JonComApps.TipnSplit;
 				PRODUCT_NAME = "Tip 'n Split";
-				PROVISIONING_PROFILE = "1d9499a9-f501-45c9-8862-f9800a065b0f";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -719,15 +719,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Jonathan Rose (X4SB288GD5)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jonathan Rose (X4SB288GD5)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloWorld/Tip 'n Split-Prefix.pch";
 				INFOPLIST_FILE = "HelloWorld/Tip 'n Split-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.JonComApps.TipnSplit;
 				PRODUCT_NAME = "Tip 'n Split";
-				PROVISIONING_PROFILE = "1d9499a9-f501-45c9-8862-f9800a065b0f";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
