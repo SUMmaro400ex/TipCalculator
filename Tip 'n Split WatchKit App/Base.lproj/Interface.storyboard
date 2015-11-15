@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8092"/>
@@ -114,6 +114,7 @@
                         </group>
                     </items>
                     <connections>
+                        <outlet property="decimalButton" destination="hqD-r9-tKw" id="enT-hb-23k"/>
                         <outlet property="displayLabel" destination="abL-vx-deD" id="UKO-Cb-seU"/>
                         <outlet property="nextButton" destination="qu5-my-lVU" id="SwT-zU-NMA"/>
                     </connections>
@@ -124,7 +125,11 @@
         <!--numberToSplit-->
         <scene sceneID="khS-3p-Sjg">
             <objects>
-                <controller identifier="numberToSplit" hidesWhenLoading="NO" id="X46-o4-aOK"/>
+                <controller identifier="numberToSplit" hidesWhenLoading="NO" id="X46-o4-aOK">
+                    <items>
+                        <label alignment="left" text="Label" id="pMy-dl-OGl"/>
+                    </items>
+                </controller>
             </objects>
             <point key="canvasLocation" x="279" y="385"/>
         </scene>

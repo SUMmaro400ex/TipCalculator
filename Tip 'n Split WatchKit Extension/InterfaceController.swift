@@ -12,10 +12,15 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
     
-    var labelString:String = "$"
+    var labelString:String = ""
     var tapdNum:String = ""
     var decimalAdded:Bool = false
     var numAfterDecimal:Int = 0
+    var billEntered:Bool = false
+    var bill:Double = 0
+    var dollarSign:String = "$"
+    var numPeople:Double = 0
+    var split:Double = 0
     let green:UIColor = UIColor.greenColor()
     let numberToSplit:String = "numberToSplit"
     
@@ -31,18 +36,45 @@ class InterfaceController: WKInterfaceController {
     @IBAction func tapped8() {tappedNumber(8)}
     @IBAction func tapped9() {tappedNumber(9)}
     @IBAction func tappedDecimal() {addDecimal()}
-    @IBAction func nextTapped() {pushControllerWithName(numberToSplit, context: labelString)}
+    @IBAction func nextTapped() {tappedNext()}
     @IBOutlet var nextButton: WKInterfaceButton!
-    
+    @IBOutlet var decimalButton: WKInterfaceButton!
+
+    func tappedNext(){
+        if(billEntered){
+            numPeople = Double(labelString)!
+            split = bill/numPeople
+            pushControllerWithName(numberToSplit, context: split)
+        }
+        else{
+            billEntered = true
+            bill = Double(labelString)!
+            labelString = "Enter # Of People"
+            updateDisplay()
+            disableDecimal()
+        }
+    }
+
     func tappedNumber(num:Int){
         nextButton.setEnabled(true)
         nextButton.setBackgroundColor(green)
+        tapdNum = String(num)
         if(checkDecimal()){
-            tapdNum = String(num)
-            labelString = labelString.stringByAppendingString(tapdNum)
-            updateDisplay()
+            labelStringUpdate(tapdNum)
+        }
+        else if(billEntered){
+            if (labelString == "Enter # Of People"){
+                labelString = ""
+                updateDisplay()
+            }
+            labelStringUpdate(tapdNum)
         }
         return
+    }
+    
+    func disableDecimal(){
+        decimalButton.setEnabled(false)
+        decimalButton.setBackgroundColor(UIColor.blackColor())
     }
     
     func checkDecimal()->Bool{
@@ -56,17 +88,20 @@ class InterfaceController: WKInterfaceController {
     }
     
     func updateDisplay(){
-        displayLabel.setText(labelString)
+        if(billEntered){
+            dollarSign=""
+        }
+            displayLabel.setText(dollarSign + labelString)
     }
     
     func addDecimal(){
         decimalAdded = true
-        labelString = labelString.stringByAppendingString(".")
-        updateDisplay()
+        labelStringUpdate(".")
     }
     
-    @IBAction func tappedNext(){
-        
+    func labelStringUpdate(str:String){
+        labelString = labelString.stringByAppendingString(str)
+        updateDisplay()
     }
     
     override func awakeWithContext(context: AnyObject?) {
