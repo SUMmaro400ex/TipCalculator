@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31CD02B71BF8FC8900323880 /* BillInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CD02B61BF8FC8900323880 /* BillInterfaceController.swift */; settings = {ASSET_TAGS = (); }; };
+		31CD02B91BF9021B00323880 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CD02B81BF9021B00323880 /* Bill.swift */; settings = {ASSET_TAGS = (); }; };
 		AB82580D1BD5C18600DC0A4D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB82580C1BD5C18600DC0A4D /* InterfaceController.swift */; };
 		AB82580F1BD5C18600DC0A4D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB82580E1BD5C18600DC0A4D /* Images.xcassets */; };
 		AB82581B1BD5C18600DC0A4D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8258191BD5C18600DC0A4D /* Interface.storyboard */; };
@@ -85,6 +87,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		31CD02B61BF8FC8900323880 /* BillInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillInterfaceController.swift; sourceTree = "<group>"; };
+		31CD02B81BF9021B00323880 /* Bill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
 		AB8258081BD5C18600DC0A4D /* Tip 'n Split WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Tip 'n Split WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB82580B1BD5C18600DC0A4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB82580C1BD5C18600DC0A4D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
@@ -157,6 +161,8 @@
 				AB82580C1BD5C18600DC0A4D /* InterfaceController.swift */,
 				AB82580E1BD5C18600DC0A4D /* Images.xcassets */,
 				AB82580A1BD5C18600DC0A4D /* Supporting Files */,
+				31CD02B61BF8FC8900323880 /* BillInterfaceController.swift */,
+				31CD02B81BF9021B00323880 /* Bill.swift */,
 			);
 			path = "Tip 'n Split WatchKit Extension";
 			sourceTree = "<group>";
@@ -442,6 +448,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31CD02B71BF8FC8900323880 /* BillInterfaceController.swift in Sources */,
+				31CD02B91BF9021B00323880 /* Bill.swift in Sources */,
 				AB82580D1BD5C18600DC0A4D /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

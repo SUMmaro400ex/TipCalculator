@@ -39,6 +39,8 @@ class InterfaceController: WKInterfaceController {
     @IBAction func nextTapped() {tappedNext()}
     @IBOutlet var nextButton: WKInterfaceButton!
     @IBOutlet var decimalButton: WKInterfaceButton!
+    
+    
 
     func tappedNext(){
         if(billEntered){
